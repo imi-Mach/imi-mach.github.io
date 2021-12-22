@@ -1,5 +1,8 @@
 <template>
   <div class="hello">
+    <div>
+      <Navbar></Navbar>
+    </div>
     <h1>{{ msg }}</h1>
     <p>
       Welcome to my personal website!<br>
@@ -13,7 +16,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'mePage',
   props: {
     msg: String
   }
