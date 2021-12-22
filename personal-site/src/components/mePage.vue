@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
     <div>
-      <Navbar></Navbar>
+      <Navbar activeIndex="2"></Navbar>
     </div>
-    <h1>{{ msg }}</h1>
+    <h1>My Profile:</h1>
     <p>
       Welcome to my personal website!<br>
       I am currently in the process of building it, so<br>
@@ -11,14 +11,18 @@
       In the meantime, come checkout my GitHub: 
       <a href="https://github.com/imi-Mach" target="_blank" rel="noopener">imi-Mach Profile</a>.
     </p>
+    <h1>Todos:</h1>
+
   </div>
 </template>
 
 <script>
+//import { component } from 'vue/types/umd'
+import Navbar from "@/components/Navbar.vue";
 export default {
   name: 'mePage',
-  props: {
-    msg: String
+  components: {
+    Navbar
   }
 }
 </script>
@@ -37,6 +41,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: rgb(255, 145, 0);;
+  color: rgb(255, 145, 0);
 }
 </style>
