@@ -15,7 +15,7 @@
       
       <el-menu-item index="2">About Me</el-menu-item>
       <el-menu-item index="3">Blog</el-menu-item>
-      <el-menu-item index="4">Acomplishments</el-menu-item>
+      <el-menu-item index="4">Accomplishments</el-menu-item>
       <el-menu-item index="5">Publications</el-menu-item>
       <el-menu-item index="6">Contact Me</el-menu-item>
     </el-menu>
@@ -52,13 +52,13 @@ export default {
             notImpl(this, "Blog");
             break;
           case 4:
-            this.$router.push('/acomplishments')
+            this.$router.push('/accomplishments')
             break;
           case 5:
             notImpl(this, "Publications");
             break;
           case 6:
-            notImpl(this, "Contact Page");
+            this.$router.push('/contact')
             break;
           default:            
         }

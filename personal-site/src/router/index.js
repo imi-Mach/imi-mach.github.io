@@ -1,6 +1,7 @@
 import { createWebHistory, createRouter } from 'vue-router'
-import mePage from '../components/mePage.vue'
-import AcompTimeLine from '../components/AcompTimeLine.vue'
+import mePage from '@/components/mePage.vue'
+import AcompTimeLine from '@/components/AccompTimeLine.vue'
+import Contact from '@/components/Contact.vue'
 
 const routes = [
     { 
@@ -9,9 +10,14 @@ const routes = [
         component: mePage
     },
     {
-        path: '/acomplishments',
-        name: 'AcompTimeLine',
+        path: '/accomplishments',
+        name: 'AccompTimeLine',
         component: AcompTimeLine
+    },
+    {
+        path: '/contact',
+        name: 'Contact',
+        component: Contact
     }
 ];
 
