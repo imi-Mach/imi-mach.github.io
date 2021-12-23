@@ -28,6 +28,7 @@ export default {
   props: ['activeIndex'],
   data() {
     return {
+      squareUrl: "@/assets/me.png",
     };
   },
   methods: {

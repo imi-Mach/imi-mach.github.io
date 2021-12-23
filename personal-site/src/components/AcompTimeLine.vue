@@ -1,23 +1,31 @@
 <template>
     <div class="block">
-        <Navbar activeIndex="4"></Navbar>
-        <div class="radio">
-            Order: 
-            <el-radio-group v-model="reverse">
-            <el-radio :label="true">descending</el-radio>
-            <el-radio :label="false">ascending</el-radio>
-            </el-radio-group>
+        <div>
+            <Navbar activeIndex="4"></Navbar>
         </div>
-
-        <el-timeline :reverse="reverse">
-            <el-timeline-item
-            v-for="(activity, index) in activities"
-            :key="index"
-            :timestamp="activity.timestamp">
-            {{activity.content}}
-            </el-timeline-item>
-        </el-timeline>
-    </div>
+        <div class="timeline"> 
+            <el-timeline>
+                <el-timeline-item timestamp="2018/4/12" placement="top">
+                <el-card>
+                    <h4>Update Github template</h4>
+                    <p>Tom committed 2018/4/12 20:46</p>
+                </el-card>
+                </el-timeline-item>
+                <el-timeline-item timestamp="2018/4/3" placement="top">
+                <el-card>
+                    <h4>Update Github template</h4>
+                    <p>Tom committed 2018/4/3 20:46</p>
+                </el-card>
+                </el-timeline-item>
+                <el-timeline-item timestamp="2018/4/2" placement="top">
+                <el-card>
+                    <h4>Update Github template</h4>
+                    <p>Tom committed 2018/4/2 20:46</p>
+                </el-card>
+                </el-timeline-item>
+            </el-timeline>
+        </div>
+\    </div>
 </template>
 
 <script>
@@ -44,3 +52,9 @@
     }
   };
 </script>
+
+<style>
+.timeline{
+    margin-top: 10px;
+}
+</style>
