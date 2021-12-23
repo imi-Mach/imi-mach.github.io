@@ -3,6 +3,7 @@
     <div>
       <Navbar activeIndex="2"></Navbar>
     </div>
+    <img class="me-pic" alt="Profile Picture" src="@/assets/me.png">
     <h1>My Profile:</h1>
     <p>
       Welcome to my personal website!<br>
@@ -42,5 +43,9 @@ li {
 }
 a {
   color: rgb(255, 145, 0);
+}
+.me-pic {
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    border: 2px solid rgb(255, 145, 0);
 }
 </style>
