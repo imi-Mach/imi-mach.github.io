@@ -1,6 +1,10 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <div>
+      <Navbar activeIndex="2"></Navbar>
+    </div>
+    <img class="me-pic" alt="Profile Picture" src="@/assets/me.png">
+    <h1>My Profile:</h1>
     <p>
       Welcome to my personal website!<br>
       I am currently in the process of building it, so<br>
@@ -8,14 +12,18 @@
       In the meantime, come checkout my GitHub: 
       <a href="https://github.com/imi-Mach" target="_blank" rel="noopener">imi-Mach Profile</a>.
     </p>
+    <h1>Todos:</h1>
+
   </div>
 </template>
 
 <script>
+//import { component } from 'vue/types/umd'
+import Navbar from "@/components/Navbar.vue";
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  name: 'mePage',
+  components: {
+    Navbar
   }
 }
 </script>
@@ -34,6 +42,10 @@ li {
   margin: 0 10px;
 }
 a {
-  color: rgb(255, 145, 0);;
+  color: rgb(255, 145, 0);
+}
+.me-pic {
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    border: 2px solid rgb(255, 145, 0);
 }
 </style>
