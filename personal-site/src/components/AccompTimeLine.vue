@@ -6,24 +6,25 @@
         <div class="timeline"> 
             <el-timeline>
                 <el-timeline-item timestamp="2018/4/12" placement="top">
-                <el-card>
+                <el-card class="card">
                     <h4>Update Github template</h4>
                     <p>Max committed 2022/23/12 20:46</p>
                 </el-card>
                 </el-timeline-item>
                 <el-timeline-item timestamp="2018/4/3" placement="top">
-                <el-card>
+                <el-card class="card">
                     <h4>Update Github template</h4>
                     <p>Max committed 2022/23/12 20:46</p>
                 </el-card>
                 </el-timeline-item>
                 <el-timeline-item timestamp="2018/4/2" placement="top">
-                <el-card>
+                <el-card class="card">
                     <h4>Update Github template</h4>
                     <p>Max committed 2022/23/12 20:46</p>
                 </el-card>
                 </el-timeline-item>
             </el-timeline>
+            
         </div>
     </div>
 </template>
@@ -55,6 +56,9 @@
 
 <style>
 .timeline{
-    margin-top: 10px;
+  margin-top: 10px;
+}
+.card{
+  margin: 10px 50px;
 }
 </style>
