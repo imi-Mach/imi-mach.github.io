@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ccc15a76.css",
+    "main.js": "/static/js/main.2129199b.js",
+    "static/js/787.f8a0dea2.chunk.js": "/static/js/787.f8a0dea2.chunk.js",
+    "static/media/horizon.jpg": "/static/media/horizon.7dc65a682c98e7fecd7f.jpg",
+    "static/media/Lehigh-logos.svg": "/static/media/Lehigh-logos.cf3ed85026297930a003e2b7b73255d7.svg",
+    "static/media/github.svg": "/static/media/github.0d16bbd8789480c9029f14a33015c3d2.svg",
+    "static/media/acrobat.svg": "/static/media/acrobat.7f607935760167b92e4ee19ce4f8c040.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.85bf860c1f0f829d1cb89b85b291d7c2.svg",
+    "static/media/bullseye-arrow.svg": "/static/media/bullseye-arrow.410c85c1637fbe4df2e9ca1b9fd49446.svg",
+    "static/media/wrench-simple.svg": "/static/media/wrench-simple.a1faec5234a6e1b4db44d36b1e4ca322.svg",
+    "static/media/pen-swirl.svg": "/static/media/pen-swirl.04e43fcd3397abbd14f6db8560949d5a.svg",
+    "index.html": "/index.html",
+    "static/media/chalkboard-user.svg": "/static/media/chalkboard-user.b1d856ad8ada02a81e041947fd5d1278.svg",
+    "static/media/search-alt.svg": "/static/media/search-alt.a34621c3b9d753ad5052bd67dd573bc8.svg",
+    "static/media/map.svg": "/static/media/map.8c05a772dc15f2ef297ef41a4b4ca3fc.svg",
+    "static/media/building.svg": "/static/media/building.3c7547cca9bc3e073c73464fa272d23d.svg",
+    "static/media/book-bookmark.svg": "/static/media/book-bookmark.a76323ebe4ca4383f5a215e48b49304a.svg",
+    "static/media/EY-logo.svg": "/static/media/EY-logo.02ba795a0e7fdb753253e8efc1f24773.svg",
+    "main.ccc15a76.css.map": "/static/css/main.ccc15a76.css.map",
+    "main.2129199b.js.map": "/static/js/main.2129199b.js.map",
+    "787.f8a0dea2.chunk.js.map": "/static/js/787.f8a0dea2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccc15a76.css",
+    "static/js/main.2129199b.js"
+  ]
+}
