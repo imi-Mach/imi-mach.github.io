@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ccc15a76.css",
-    "main.js": "/static/js/main.2129199b.js",
+    "main.js": "/static/js/main.6ef2a827.js",
     "static/js/787.f8a0dea2.chunk.js": "/static/js/787.f8a0dea2.chunk.js",
     "static/media/horizon.jpg": "/static/media/horizon.7dc65a682c98e7fecd7f.jpg",
     "static/media/Lehigh-logos.svg": "/static/media/Lehigh-logos.cf3ed85026297930a003e2b7b73255d7.svg",
@@ -19,11 +19,11 @@
     "static/media/book-bookmark.svg": "/static/media/book-bookmark.a76323ebe4ca4383f5a215e48b49304a.svg",
     "static/media/EY-logo.svg": "/static/media/EY-logo.02ba795a0e7fdb753253e8efc1f24773.svg",
     "main.ccc15a76.css.map": "/static/css/main.ccc15a76.css.map",
-    "main.2129199b.js.map": "/static/js/main.2129199b.js.map",
+    "main.6ef2a827.js.map": "/static/js/main.6ef2a827.js.map",
     "787.f8a0dea2.chunk.js.map": "/static/js/787.f8a0dea2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccc15a76.css",
-    "static/js/main.2129199b.js"
+    "static/js/main.6ef2a827.js"
   ]
 }
